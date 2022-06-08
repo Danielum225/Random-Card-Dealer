@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  width: 24rem;
+  height: 33rem;
+  border-radius: 1em;
+}
+.palo {
+  font-size: 4em;
+}
+.numeroCentral {
+  font-size: 100px;
+}
+.palo2 {
+  font-size: 4em;
+}

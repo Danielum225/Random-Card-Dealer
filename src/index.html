@@ -4,26 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 my-4">
+          <div class="card">
+            <div class="card-body" onload="nuevaCarta();">
+              <div><p class="palo"></p></div>
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <h1 class="NumeroCentral">3</h1>
+              </div>
+              <div class="position-absolute bottom-0 end-0 me-3"><p class="palo2"></p></div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col-4"></div>
     </div>
   </body>
 </html>
